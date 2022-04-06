@@ -7,7 +7,7 @@ public class Gun : MonoBehaviour
     // Gun basics
     public float damage = 10f;
     public float range = 100f;
-    public float fireRate = 30f;
+    public float fireRate = 8f;
     private float nextTimeToFire = 0f;
 
     // FPS camera
@@ -16,6 +16,7 @@ public class Gun : MonoBehaviour
     // Gun effects
     public ParticleSystem muzzleFlash;
     public GameObject impactEffect;
+    public AudioSource shootSound;
 
     void Update()
     {
@@ -34,6 +35,8 @@ public class Gun : MonoBehaviour
         {
             muzzleFlash.Play();
         }
+
+        shootSound.Play();
 
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
