@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33950897385114546}
   - component: {fileID: 23596130846723570}
   - component: {fileID: 64460594025850932}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PTK_Cube_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1577061199707632}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.49, y: 3.04, z: 3.73}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
